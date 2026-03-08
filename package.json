@@ -4,7 +4,7 @@
   },
   "scripts": {
     "start": "node app.js",
-  "test": "echo \"No tests yet\""
+  "test": "echo \"No tests yet\"",
     "start-frontend": "cd frontend && npm run dev",
     "start-backend": "cd backend && npm start",
     "start": "concurrently -n \"FRONTEND,BACKEND\" -c \"bgBlue,bgYellow\" -p \"[{name}]\" \"npm run start-frontend\" \"npm run start-backend\"",
